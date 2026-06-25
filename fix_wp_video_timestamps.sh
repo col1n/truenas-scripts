@@ -1,7 +1,7 @@
 #!/bin/bash
 # Set filesystem timestamps on WP_ videos from their filename date,
 # preserving intra-day order via the _NNN sequence suffix.
-FOLDER="/mnt/Home_1/PhotoSPOT_I/2013.09.22-27_Germany/newVIDEO/1"
+FOLDER="/mnt/Home_1/PhotoSPOT_I/2013.09.22-27_Germany/newVIDEO/"
 DRYRUN=${1:-}            # pass --dry-run to preview only
 START_HOUR=10            # first file of each day starts here
 STEP_MIN=2              # minutes added per sequence step
